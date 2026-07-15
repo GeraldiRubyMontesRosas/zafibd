@@ -25,6 +25,8 @@ namespace Recetario_Api.Controllers
         {
             var recetas = await context.Receta
                 .Include(r => r.PasosL)
+                .Include(r => r.PreferenciaAlimentaria)
+                .Include(r => r.Utensilios)
                 .Include(r => r.Ingredientes)
                     .ThenInclude(i => i.Unidad)
                 .ToListAsync();

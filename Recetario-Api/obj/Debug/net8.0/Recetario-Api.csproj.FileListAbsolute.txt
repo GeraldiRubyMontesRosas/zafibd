@@ -112,3 +112,4 @@ C:\Users\rubym\OneDrive\Escritorio\Recetario-Api\Recetario-Api\obj\Debug\net8.0\
 C:\Users\rubym\OneDrive\Escritorio\Recetario-Api\Recetario-Api\obj\Debug\net8.0\Recetario-Api.pdb
 C:\Users\rubym\OneDrive\Escritorio\Recetario-Api\Recetario-Api\obj\Debug\net8.0\Recetario-Api.genruntimeconfig.cache
 C:\Users\rubym\OneDrive\Escritorio\Recetario-Api\Recetario-Api\obj\Debug\net8.0\ref\Recetario-Api.dll
+C:\Users\rubym\OneDrive\Escritorio\Recetario-Api\Recetario-Api\obj\Debug\net8.0\Recetario-Api.sourcelink.json

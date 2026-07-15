@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Recetario-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db17d4dab95abe661915ad23e3a04bc7989b66b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Recetario-Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Recetario-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,6 @@
         public int IngredienteId { get; set; }
         public decimal Cantidad { get; set; }
         public int UnidadId { get; set; }
-        public IngredienteDTO? Ingrediente { get; set; }
-        public UnidadDTO? Unidad { get; set; }
+
     }
 }

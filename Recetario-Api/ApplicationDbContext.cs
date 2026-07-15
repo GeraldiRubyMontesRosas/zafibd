@@ -15,6 +15,9 @@ namespace Recetario_Api
         public DbSet<Paso> Paso { get; set; }
         public DbSet<Receta> Receta { get; set; }
         public DbSet<Unidad> Unidad { get; set; }
+        public DbSet<Utensilio> Utensilio { get; set; }
+        public DbSet<Tipo> Tipo { get; set; }
+        public DbSet<PreferenciaAlimentaria> PreferenciaAlimentaria { get; set; }
     }
 }
 

@@ -219,6 +219,79 @@
     ]
   },
   {
+    "ContainingType": "Recetario_Api.Controllers.PreferenciaAlimentariaController",
+    "Method": "Put",
+    "RelativePath": "api/PreferenciaAlimentaria/actualizar/{PreferenciaAlId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PreferenciaAlId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.PreferenciaAlimentariaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.PreferenciaAlimentariaController",
+    "Method": "Post",
+    "RelativePath": "api/PreferenciaAlimentaria/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.PreferenciaAlimentariaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.PreferenciaAlimentariaController",
+    "Method": "Delete",
+    "RelativePath": "api/PreferenciaAlimentaria/eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.PreferenciaAlimentariaController",
+    "Method": "GetAll",
+    "RelativePath": "api/PreferenciaAlimentaria/obtener-tipo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Recetario_Api.DTOs.PreferenciaAlimentariaDTO, Recetario-Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Recetario_Api.Controllers.RecetasController",
     "Method": "Put",
     "RelativePath": "api/Recetas/actualizar/{Recetaid}",
@@ -282,6 +355,79 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Recetario_Api.DTOs.RecetasDTO, Recetario-Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.TipoController",
+    "Method": "Put",
+    "RelativePath": "api/Tipo/actualizar/{TipoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TipoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.TipoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.TipoController",
+    "Method": "Post",
+    "RelativePath": "api/Tipo/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.TipoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.TipoController",
+    "Method": "Delete",
+    "RelativePath": "api/Tipo/eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.TipoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Tipo/obtener-tipo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Recetario_Api.DTOs.TipoDTO, Recetario-Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -428,6 +574,79 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[Recetario_Api.DTOs.UsuarioDTO, Recetario-Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.UtensiliosController",
+    "Method": "Put",
+    "RelativePath": "api/Utensilios/actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUtensilio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.UtensiliosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.UtensiliosController",
+    "Method": "Post",
+    "RelativePath": "api/Utensilios/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Recetario_Api.DTOs.UtensiliosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.UtensiliosController",
+    "Method": "Delete",
+    "RelativePath": "api/Utensilios/eliminar/{IdUtensilio}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUtensilio",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Recetario_Api.Controllers.UtensiliosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Utensilios/obtener-todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Recetario_Api.DTOs.UtensiliosDTO, Recetario-Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

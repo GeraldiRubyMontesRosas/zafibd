@@ -27,6 +27,15 @@ namespace Recetario_Api.Utilities
 
             CreateMap<UnidadDTO, Unidad>();
             CreateMap<Unidad, UnidadDTO>();
+
+            CreateMap<UtensiliosDTO, Utensilio>();
+            CreateMap<Utensilio, UtensiliosDTO>();
+
+            CreateMap<TipoDTO, Tipo>();
+            CreateMap<Tipo, TipoDTO>();
+
+            CreateMap<PreferenciaAlimentariaDTO, PreferenciaAlimentaria>();
+            CreateMap<PreferenciaAlimentaria, PreferenciaAlimentariaDTO>();
         }
     }
 }
