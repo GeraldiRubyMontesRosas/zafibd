@@ -4,6 +4,5 @@
     {
         public int UnidadId { get; set; }
         public string Unidades { get; set; }
-        public List<IngredienteReceta> Ingredientes { get; set; }
     }
 }

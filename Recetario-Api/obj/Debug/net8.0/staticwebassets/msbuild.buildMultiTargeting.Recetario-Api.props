@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Recetario-Api.props" />
-</Project>

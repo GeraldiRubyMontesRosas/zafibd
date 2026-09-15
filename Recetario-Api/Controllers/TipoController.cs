@@ -103,7 +103,7 @@ namespace Recetario_Api.Controllers
             context.Tipo.Remove(tipo);
             await context.SaveChangesAsync();
             return NoContent();
-        }
+        }//cambios
 
     }
 }
